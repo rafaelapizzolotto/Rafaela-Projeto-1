@@ -6,6 +6,7 @@
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
     --alto-contraste-link: #ffd700;
+}
 
 body {
     font-size: 1rem;
@@ -145,6 +146,7 @@ h2 {
     right:20px;
     z-index: 1000;
 }
+
 .rotacao-botao{
     transform: rotate(-90deg);
     transform-origin: right center;
@@ -157,14 +159,12 @@ h2 {
 }
 
 .opcoes-acessibilidade button{
-    margin-bottom: 5px;.alto-contraste{
-        background-color: var(--alto-contraste-fundo);
-        color: var(--alto-contraste-texto);
-    }
+    margin-bottom: 5px;
 }
 .apresenta-lista{
     display: none;
 }
+
 .alto-contraste{
     background-color: var(--alto-contraste-fundo);
     color: var(--alto-contraste-texto);
